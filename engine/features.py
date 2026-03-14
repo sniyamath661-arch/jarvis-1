@@ -231,7 +231,7 @@ def geminai(query):
         model = genai.GenerativeModel("gemini-2.5-flash")
 
         # Generate a response
-        response = model.generate_content(query)
+        response = model.generate_content("Answer shortly: " + query)
         filter_text = markdown_to_text(response.text)
         speak(filter_text)
     except Exception as e:

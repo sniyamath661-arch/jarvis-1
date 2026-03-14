@@ -1,2 +1,2 @@
 ASSISTANT_NAME = "jarvis"
-LLM_KEY = ""
+LLM_KEY = "AIzaSyDze14ESFyQCio7QvgRsOnIGtnHAUrMLYo"

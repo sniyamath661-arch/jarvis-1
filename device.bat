@@ -1,4 +1,3 @@
-
 @echo off
 echo Disconnecting old connections...
 adb disconnect
@@ -14,7 +13,7 @@ adb connect %ip%
 @echo off
 
 rem Set the IP address of your Android device
-set DEVICE_IP=192.0.0.4
+set DEVICE_IP=10.131.108.73
 
 rem Set the port number for ADB
 set ADB_PORT=5555
